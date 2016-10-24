@@ -4,12 +4,10 @@ This is a training program for people doing data analyses to be familiar with ho
 
 
 ## Preliminaries
-----
 [Installation and Basics](https://github.com/TresAmigosSD/SmvTraining)
 
 
 ## Data Treatment and QC
-----
 Missing Values
 Outliers
 Manipulating Various Data Types
@@ -24,12 +22,10 @@ Manipulating Various Data Types
     
     
 ## Data Transformation and Merge
-----
 * maybe some ETL functions demonstration?
 
 
 ## Data Aggregation
-----
 * smv grouped data functions
 
 
