@@ -1,6 +1,10 @@
 # SMV for Data Analysis
 
-Processing different types of data
+Data Transformation and Merge
+----
+* ETL functions demonstration
+
+Data Treatment and QC
 ----
 * Binary
 * Categorical
@@ -11,7 +15,6 @@ Processing different types of data
   * Date/Time
   * Currency
 
-Processing multiple datasets
-----
+
 
 
