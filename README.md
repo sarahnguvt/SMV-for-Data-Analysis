@@ -6,6 +6,10 @@ This is a training program for people doing data analyses to be familiar with ho
 ## Preliminaries
 [Installation and Basics](https://github.com/TresAmigosSD/SmvTraining)
 
+## Key Concepts
+* SmvModule, SmvModuleLink, etc?
+
+## Data Import and Export
 
 ## Data Treatment and QC
 Missing Values
