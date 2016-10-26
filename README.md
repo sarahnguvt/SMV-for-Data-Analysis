@@ -7,7 +7,8 @@ This is a training program for people doing data analyses to be familiar with ho
 [Installation and Basics](https://github.com/TresAmigosSD/SmvTraining)
 
 ## Key Concepts
-* SmvModule, SmvModuleLink, etc?
+* Project hierarchy?
+* SmvStages, SmvModule, SmvModuleLink, etc?
 
 ## Data Import and Export
 
@@ -37,4 +38,7 @@ Manipulating Various Data Types
 ## Data Aggregation
 * smv grouped data functions
 
-
+## Ad-hoc Analyses
+* EDD
+* Hist
+* 
