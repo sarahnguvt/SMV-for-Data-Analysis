@@ -1,6 +1,7 @@
 # SMV for Data Analysis
 
-This is a training program for people doing data analyses to be familiar with how to conduct various data analyses using SMV (Spark Modularized View) - a framework to use Spark to develop large scale data applications. API docs can be found [here](http://tresamigossd.github.io/SMV/scaladocs/index.html#org.tresamigos.smv.package).
+This is a training program for people to have an idea of how to conduct various data analyses using SMV (Spark Modularized View) - a framework to use Spark to develop large scale data applications. API docs can be found [here](http://tresamigossd.github.io/SMV/scaladocs/index.html#org.tresamigos.smv.package).
+
 
 ## Preliminaries
 * [Installation and Project Initialization](https://github.com/TresAmigosSD/SmvTraining)
@@ -26,8 +27,8 @@ b) can easily convert to pandas?
   * Currency
 
 
-## Data Quality Management (DQM)
-dqm package or a general concept?
+## Data Quality Management
+dqm package?
 * Missing Values
   * Filter / Missing value imputation
 
@@ -36,8 +37,15 @@ dqm package or a general concept?
     
 
 ## Data Transformation and Merge
-* maybe some ETL functions demonstration?
+* demonstrate functionalities supported by smvDFHelper (e.g. column plus/minus/rename, dedup, join, union, etc.)
 
 
 ## Data Aggregation
-* smv grouped data functions
+* straightforward aggregations (smvGroupBy.agg(...))
+* smv grouped data functions (runAgg, oneAgg, pivot, etc.)
+* CDS application
+
+----
+***TBD:***
+* where or whether to mention add new modules / modify existing modules?
+* what sample data to use? 
