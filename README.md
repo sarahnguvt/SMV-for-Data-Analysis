@@ -23,18 +23,14 @@ b) can easily convert to pandas?
 * Continuous
 * Others
   * Unique identifier
-  * Date/Time
+  * Date/Time (smv date/time related functions)
   * Currency
 
 
 ## Data Quality Management
-dqm package?
 * Missing Values
-  * Filter / Missing value imputation
-
 * Outliers
-  * Cap / Floor
-    
+* smv dqm package?    
 
 ## Data Transformation and Merge
 * demonstrate functionalities supported by smvDFHelper (e.g. column plus/minus/rename, dedup, join, union, etc.)
