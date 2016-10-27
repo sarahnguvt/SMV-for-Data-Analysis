@@ -4,33 +4,15 @@ This is a training program for people to have an idea of how to conduct various 
 
 
 ## Preliminaries
-* [Installation and Project Initialization](https://github.com/TresAmigosSD/SmvTraining)
-* Recap: Basics and Key Concepts (e.g. project dir hierarchy, key concepts like smv stages, modules)?
+* [Project Initialization](https://github.com/TresAmigosSD/SmvTraining)
+* customize the project: add/modify stages, modules, etc. (?)
 
 
 ## Data Quick View
 By running smv-jupyter command at the project top-level directory, a jupyter notebook will start which supports the interactive mode of smv. Users are able to use smv functions and built-in functions of pyspark to do quick checks of the data. 
-* [A quick peek at the data](https://github.com/sarahnguvt/SMVforDataAnalysis/blob/master/notebooks/Data_Quick_View.ipynb)
+* [A quick peek at the project/data](https://github.com/sarahnguvt/SMVforDataAnalysis/blob/master/notebooks/Data_Quick_View.ipynb)
 * Ad-hoc analyses
-a) demonstrate other functions
-b) can easily convert to pandas?
 
-
-## Manipulating Various Data Types
-* Binary
-* [Categorical](https://github.com/sarahnguvt/SMVforDataAnalysis/blob/master/notebooks/Manipulating_Various_Data_Types.ipynb)
-* Ordinal
-* Continuous
-* Others
-  * Unique identifier
-  * Date/Time (smv date/time related functions)
-  * Currency
-
-
-## Data Quality Management
-* Missing Values
-* Outliers
-* smv dqm package?    
 
 ## Data Transformation and Merge
 * demonstrate functionalities supported by smvDFHelper (e.g. column plus/minus/rename, dedup, join, union, etc.)
@@ -41,8 +23,26 @@ b) can easily convert to pandas?
 * smv grouped data functions (runAgg, oneAgg, pivot, etc.)
 * CDS application
 
+
+## Data Quality Control
+* Missing Values 
+* Outliers 
+smv dqm package?    
+
+
+## Manipulating Various Data Types 
+Manipulate/recode different data types for an analytic view
+* Binary Variable
+* [Categorical Variable](https://github.com/sarahnguvt/SMVforDataAnalysis/blob/master/notebooks/Manipulating_Various_Data_Types.ipynb)
+* Ordinal Variable
+* Continuous Variable
+* Others
+  * Unique identifier (dup)
+  * Date/Time (smv date/time related functions)
+  * Money
+
+
 ----
 ***TBD:***
-* where or whether to mention add new modules / modify existing modules?
 * what sample data to use? 
 * Reference to API docs
