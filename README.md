@@ -24,12 +24,6 @@ By running smv-jupyter command at the project top-level directory, a jupyter not
 * CDS application
 
 
-## Data Quality Control
-* Missing Values 
-* Outliers 
-smv dqm package?    
-
-
 ## Manipulating Various Data Types 
 Manipulate/recode different data types for an analytic view
 * Binary Variable
@@ -40,6 +34,15 @@ Manipulate/recode different data types for an analytic view
   * Unique identifier (dup)
   * Date/Time (smv date/time related functions)
   * Money
+
+
+## Data Quality Control
+* QC throughout the process
+  * check input as real data always have flaws
+  * QC data output after manipulation/transformation/aggregation
+* Missing Values 
+* Outliers 
+smv dqm package?    
 
 
 ----
