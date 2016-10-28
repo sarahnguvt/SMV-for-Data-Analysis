@@ -4,27 +4,33 @@ This is a training program for people to have an idea of how to conduct various 
 
 
 ## Preliminaries
-* [Project Initialization](https://github.com/TresAmigosSD/SmvTraining)
-* customize the project: add/modify stages, modules, etc. (?)
+* [Installation and A Sample Project](https://github.com/TresAmigosSD/SmvTraining)
 
 
 ## Data Quick View
-By running smv-jupyter command at the project top-level directory, a jupyter notebook will start which supports the interactive mode of smv. Users are able to use smv functions and built-in functions of pyspark to do quick checks of the data. 
-* [A quick peek at the project/data](https://github.com/sarahnguvt/SMVforDataAnalysis/blob/master/notebooks/Data_Quick_View.ipynb)
-* Ad-hoc analyses
+***TOWRITE: why this is important?***
+By running smv-jupyter command at the project top-level directory, a jupyter notebook will start which supports the interactive mode of smv. Users are able to use smv functions and built-in functions of pyspark to do quick checks of the data. Employment data in the sample project in [SmvTraining](https://github.com/TresAmigosSD/SmvTraining) will be used.
+* [Input data overview](https://github.com/sarahnguvt/SMVforDataAnalysis/blob/master/notebooks/Data_Quick_View.ipynb)
+* Data Quality Control
+* Profiling for Insights
 
+## Smv Application: airline case study
+Points to mention:
+* Project hierarchy
+* Dependency
+* Relationships between Smv frameworks (stages, modules, etc.) and how Smv provides the convenience to manage all these
 
-## Data Transformation and Merge
+### Data Transformation and Merge
 * demonstrate functionalities supported by smvDFHelper (e.g. column plus/minus/rename, dedup, join, union, etc.)
 
 
-## Data Aggregation
+### Data Aggregation
 * straightforward aggregations (smvGroupBy.agg(...))
 * smv grouped data functions (runAgg, oneAgg, pivot, etc.)
 * CDS application
 
 
-## Manipulating Various Data Types 
+### Manipulating Various Data Types 
 Manipulate/recode different data types for an analytic view
 * Binary Variable
 * [Categorical Variable](https://github.com/sarahnguvt/SMVforDataAnalysis/blob/master/notebooks/Manipulating_Various_Data_Types.ipynb)
@@ -36,7 +42,7 @@ Manipulate/recode different data types for an analytic view
   * Money
 
 
-## Data Quality Control
+### Data Quality Control
 * QC throughout the process
   * check input as real data always have flaws
   * QC data output after manipulation/transformation/aggregation
@@ -44,8 +50,7 @@ Manipulate/recode different data types for an analytic view
 * Outliers 
 smv dqm package?    
 
-
 ----
-***TBD:***
-* what sample data to use? 
-* Reference to API docs
+***Comments***
+* employment data for quick view; airline data for application
+* show the progress of how a project / data can grow in the airline case
